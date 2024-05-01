@@ -1,0 +1,1018 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* swiftrideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* swiftrideTests.m */; };
+		0150728FDE084BD3BCF50580 /* DMSans_18pt-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1B1602B379948768F3D6400 /* DMSans_18pt-ExtraLight.ttf */; };
+		0222FE1FC84A4FED9C57F238 /* DMSans_18pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F960AE61A00747F79BF6FF58 /* DMSans_18pt-SemiBoldItalic.ttf */; };
+		0732B3945A914FF2A74B7DC0 /* DMSans_18pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A5E694167474CB79DC4D6F7 /* DMSans_18pt-MediumItalic.ttf */; };
+		0A4BCC7E170F4C8D826AB7DC /* DMSans_36pt-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A045A09510CC48ABA44BE015 /* DMSans_36pt-Thin.ttf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-swiftride.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-swiftride.a */; };
+		0D879053E1D94DDB866AC407 /* DMSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D90A83F147D3488490DCE268 /* DMSans-Black.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		162314A944FC43288593F377 /* DMSans_36pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B924E766598948469E6DDDC1 /* DMSans_36pt-MediumItalic.ttf */; };
+		1C6B08B7A09745CEB5FD12D8 /* DMSans_24pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EBB1BDDDE8D43909BFD70F3 /* DMSans_24pt-ExtraBold.ttf */; };
+		24A61D8E378F422582490266 /* DMSans_18pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C20BC368AB544EB5A5C1625B /* DMSans_18pt-ExtraBoldItalic.ttf */; };
+		283D3450F96C408CBB787098 /* DMSans_18pt-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79817BFD21984DE0AD66B668 /* DMSans_18pt-Thin.ttf */; };
+		28DDD911781D4C65B86FD1F5 /* DMSans_36pt-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7514F4E9D264114963555BE /* DMSans_36pt-ExtraLightItalic.ttf */; };
+		2ACE7A6F4DF1458D94344D64 /* DMSans_24pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B68FF25E353D4F1D9AEDF4C8 /* DMSans_24pt-ExtraBoldItalic.ttf */; };
+		2D53E62B4CFC4C8CACF1DC2E /* DMSans_36pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DEE45488ACF4927852F2C12 /* DMSans_36pt-Medium.ttf */; };
+		2F49E9E79E494251B31827F7 /* DMSans_24pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B67E4BF8BD6847E5AABCF9F6 /* DMSans_24pt-Bold.ttf */; };
+		2F6AF07045E64E768DD574A9 /* DMSans_18pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF5C38C0DC8541E5A57AB22A /* DMSans_18pt-Black.ttf */; };
+		3122C5EC1AFF4DB6BBEEA09F /* DMSans_36pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F9EDBE7368A4CC081E08E06 /* DMSans_36pt-Bold.ttf */; };
+		37C1AAF41CFB42E886258DA4 /* DMSans_18pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0965F8B901364A6FA5D8FA12 /* DMSans_18pt-BlackItalic.ttf */; };
+		38BE1727A86D47F78089D67C /* DMSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D7C0181C5074241A87219ED /* DMSans-ExtraBoldItalic.ttf */; };
+		415E7F78D1984597B2B64E57 /* DMSans_24pt-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5ACD797058E4E86B133AC06 /* DMSans_24pt-Thin.ttf */; };
+		4B46AF51B8274F4A9508F052 /* DMSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69F0D25416A94575A8E50DEE /* DMSans-Light.ttf */; };
+		4C5C76D3D50B46DC95D43F81 /* DMSans_36pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD873492D804A9E90780D4B /* DMSans_36pt-ExtraBoldItalic.ttf */; };
+		4CF37DB20C344E79980B099B /* DMSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09475432F8D445A4B9A2F0A5 /* DMSans-ExtraBold.ttf */; };
+		4D12CA2DE7234AB6963C1068 /* DMSans_18pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAFC21DE20F743D581705AE0 /* DMSans_18pt-Bold.ttf */; };
+		50D309EBF5B44B008EBAFF6D /* DMSans_18pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D1F5D99D263414D837E0FDB /* DMSans_18pt-Italic.ttf */; };
+		5433875CEB6444A0B0CECE88 /* DMSans_18pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67006B2F1C44ACA92B7F99E /* DMSans_18pt-SemiBold.ttf */; };
+		5CD23B7C61C94A2F9B56B96F /* DMSans_18pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BF1B5CCCE7C4DCC8A777644 /* DMSans_18pt-ExtraBold.ttf */; };
+		66CFBB530DDC41B8B904F13C /* DMSans_36pt-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 946037CCF3254C6AB7E2C1E2 /* DMSans_36pt-LightItalic.ttf */; };
+		69500B57D5F34F5395E8E312 /* DMSans_24pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32EA0EE82DFA4FD0961EAE12 /* DMSans_24pt-BoldItalic.ttf */; };
+		6D1934E012984E0FBD13F3AC /* DMSans_24pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79937247CC094CF6A1A4F309 /* DMSans_24pt-Medium.ttf */; };
+		6DF54291BC00490F9BBE09B3 /* DMSans_24pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBF8C5BDF9F949F89C356D1E /* DMSans_24pt-Black.ttf */; };
+		7387969F905E4BC3BE62FC3B /* DMSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFE1165BD1584A5D9526BFF3 /* DMSans-SemiBoldItalic.ttf */; };
+		73CDE76A6B5346CB817AD641 /* DMSans_24pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1804AE25EA124473824C2EAD /* DMSans_24pt-BlackItalic.ttf */; };
+		7469D0D409D9471D8893DCE6 /* DMSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D51CB6E703B497B8FDC0A5E /* DMSans-ExtraLight.ttf */; };
+		76992B4480384CC5A37470A9 /* DMSans_36pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7D277313E6D4D83ABC19983 /* DMSans_36pt-ExtraBold.ttf */; };
+		7699B88040F8A987B510C191 /* libPods-swiftride-swiftrideTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-swiftride-swiftrideTests.a */; };
+		776FACEA67994384B3E76307 /* DMSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC8C63E840724F10A2B9726C /* DMSans-BlackItalic.ttf */; };
+		7C4313FD44CE4C33A360BD51 /* DMSans_36pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11170BD9BB844508B31C7EC /* DMSans_36pt-BoldItalic.ttf */; };
+		7DE4D78652784E81B2F23FCE /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B27C661594343F5979BD0CF /* DMSans-Bold.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8883646B6ABA416B94B3F122 /* DMSans_24pt-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35427483277A4AA599806593 /* DMSans_24pt-ExtraLight.ttf */; };
+		8F6E36C28A504ABF9D942285 /* DMSans_36pt-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49203FF2FDFF4BB2A845DC4A /* DMSans_36pt-ExtraLight.ttf */; };
+		91E742BAA8B2410396295AEB /* DMSans_36pt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6373CFA132B443E4B57844ED /* DMSans_36pt-Light.ttf */; };
+		9A282727F0E741AFA18661AC /* DMSans_18pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73AD2FCB24F94769B8A20E91 /* DMSans_18pt-Regular.ttf */; };
+		9A5E44692293417C9C94A234 /* DMSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6211CD700DD844DCB1CE1D35 /* DMSans-ThinItalic.ttf */; };
+		9B44F0FAC4824FE3935730E5 /* DMSans_36pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ECEEC4D65FD4A9E8991C6EA /* DMSans_36pt-Black.ttf */; };
+		A26190C1382248369B22832C /* DMSans_24pt-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D255BE60C94B41E783CB414C /* DMSans_24pt-LightItalic.ttf */; };
+		A3961EED00B94364AAE692C9 /* DMSans_18pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CEC5F831A4342AAAFB03A9D /* DMSans_18pt-BoldItalic.ttf */; };
+		A4094D7AF3E84DEFB5B357E6 /* DMSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD105670F6B64EEDBC525E3D /* DMSans-BoldItalic.ttf */; };
+		A4E6596A38F241EC88B8AA09 /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D452131B42444D0BD8CA449 /* DMSans-Medium.ttf */; };
+		A65A255B488643F48A499120 /* DMSans_24pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA8DC25787BD4A02A9EDEDA5 /* DMSans_24pt-SemiBoldItalic.ttf */; };
+		A86153F7466E48C6AD425742 /* DMSans_24pt-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C7890A6FAD14ADAA4C46B99 /* DMSans_24pt-ThinItalic.ttf */; };
+		A86E7EF55DFC4B519B281CA1 /* DMSans_24pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40A9A055FCFD45A4A4440131 /* DMSans_24pt-MediumItalic.ttf */; };
+		AA382BB2824F447BB533EF43 /* DMSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 487A913E993748BFAABD16B6 /* DMSans-ExtraLightItalic.ttf */; };
+		AA46D7D8748342B489BF4C3E /* DMSans_36pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B03F8910CE04E44BD7AD94F /* DMSans_36pt-BlackItalic.ttf */; };
+		AB1541737DC045678688ABAE /* DMSans_18pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDDF5F0326B84D1385FBAB8F /* DMSans_18pt-Medium.ttf */; };
+		AF086C9288324ED991F92BE3 /* DMSans_36pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE1C5A668EA74C839B3428E0 /* DMSans_36pt-Italic.ttf */; };
+		B06D78C7F24F4BCFA638E9E7 /* DMSans_24pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6BB37AF9E124919A33D4456 /* DMSans_24pt-Regular.ttf */; };
+		B461C38E83B1465FB236318F /* DMSans_36pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAE8BF996BF14C5F9D63366C /* DMSans_36pt-Regular.ttf */; };
+		BBAB52063E7F416EAE077D55 /* DMSans_18pt-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 871A7376942644FD95F273AB /* DMSans_18pt-ExtraLightItalic.ttf */; };
+		C4C77E0DAC6547939B4993F0 /* DMSans_24pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 453CF234571841BFB63BBC6A /* DMSans_24pt-Italic.ttf */; };
+		C923C47FF5254B2FA238A43A /* DMSans_18pt-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0C667E768D7473489C71334 /* DMSans_18pt-ThinItalic.ttf */; };
+		CC7BF078FC514D8D8E7F8201 /* DMSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD096FF4D4394B088FFDBBC9 /* DMSans-Thin.ttf */; };
+		CCCFF81FEBE54CD882E99704 /* DMSans_24pt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0108DEAF583C42CA94D60CD9 /* DMSans_24pt-Light.ttf */; };
+		D15845380834431CB6EC2E1F /* DMSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 858E6D2D273A4FB1B5F339FA /* DMSans-Italic.ttf */; };
+		D90936A9F299429C9A6B33FD /* DMSans_24pt-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B910D907CC4045229FE96816 /* DMSans_24pt-ExtraLightItalic.ttf */; };
+		D919B291F45B4E6595B9678E /* DMSans_36pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E94BC3BDBE499AB105C1FC /* DMSans_36pt-SemiBoldItalic.ttf */; };
+		DC87FA17E0B34DE5BCFA36C5 /* DMSans_18pt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1DA3BD8B141435BBDB3FABF /* DMSans_18pt-Light.ttf */; };
+		DE0C58276D5A4641A2D504AB /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5F9A3D163C349E088920E6E /* DMSans-Regular.ttf */; };
+		E095D772573E4B728B2A57E2 /* DMSans_36pt-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC852DEC4F63487786DFB986 /* DMSans_36pt-ThinItalic.ttf */; };
+		E2FE5057DD214539BC2A9444 /* DMSans_36pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C7EBB91E52442558507A7CF /* DMSans_36pt-SemiBold.ttf */; };
+		E9CDAB1DEA1041DE9BA7B1BC /* DMSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D786CAD80A21466EA36C73DD /* DMSans-LightItalic.ttf */; };
+		EB12E5949678417C8A2EB734 /* DMSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C8C68808DF848F492B1D177 /* DMSans-MediumItalic.ttf */; };
+		ED26BC5F2D3D4BAA8564BCF8 /* DMSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AD5ACEEEB9944B08394A781 /* DMSans-SemiBold.ttf */; };
+		EFED54F984034ED293BD5921 /* DMSans_24pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2782908F2BC6461F98E6681E /* DMSans_24pt-SemiBold.ttf */; };
+		F3E00766760C46EF8FCD9ED7 /* DMSans_18pt-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C5C52F5490E462D9E57B653 /* DMSans_18pt-LightItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = swiftride;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* swiftrideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftrideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* swiftrideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = swiftrideTests.m; sourceTree = "<group>"; };
+		0108DEAF583C42CA94D60CD9 /* DMSans_24pt-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-Light.ttf"; path = "../assets/fonts/DMSans_24pt-Light.ttf"; sourceTree = "<group>"; };
+		09475432F8D445A4B9A2F0A5 /* DMSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-ExtraBold.ttf"; path = "../assets/fonts/DMSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0965F8B901364A6FA5D8FA12 /* DMSans_18pt-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-BlackItalic.ttf"; path = "../assets/fonts/DMSans_18pt-BlackItalic.ttf"; sourceTree = "<group>"; };
+		0AD5ACEEEB9944B08394A781 /* DMSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-SemiBold.ttf"; path = "../assets/fonts/DMSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		0ECEEC4D65FD4A9E8991C6EA /* DMSans_36pt-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-Black.ttf"; path = "../assets/fonts/DMSans_36pt-Black.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* swiftride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftride.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = swiftride/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = swiftride/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = swiftride/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = swiftride/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = swiftride/main.m; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = swiftride/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1804AE25EA124473824C2EAD /* DMSans_24pt-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-BlackItalic.ttf"; path = "../assets/fonts/DMSans_24pt-BlackItalic.ttf"; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-swiftride-swiftrideTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-swiftride-swiftrideTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A5E694167474CB79DC4D6F7 /* DMSans_18pt-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-MediumItalic.ttf"; path = "../assets/fonts/DMSans_18pt-MediumItalic.ttf"; sourceTree = "<group>"; };
+		1C7EBB91E52442558507A7CF /* DMSans_36pt-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-SemiBold.ttf"; path = "../assets/fonts/DMSans_36pt-SemiBold.ttf"; sourceTree = "<group>"; };
+		1D1F5D99D263414D837E0FDB /* DMSans_18pt-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-Italic.ttf"; path = "../assets/fonts/DMSans_18pt-Italic.ttf"; sourceTree = "<group>"; };
+		1EBB1BDDDE8D43909BFD70F3 /* DMSans_24pt-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-ExtraBold.ttf"; path = "../assets/fonts/DMSans_24pt-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2782908F2BC6461F98E6681E /* DMSans_24pt-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-SemiBold.ttf"; path = "../assets/fonts/DMSans_24pt-SemiBold.ttf"; sourceTree = "<group>"; };
+		2B27C661594343F5979BD0CF /* DMSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Bold.ttf"; path = "../assets/fonts/DMSans-Bold.ttf"; sourceTree = "<group>"; };
+		2C5C52F5490E462D9E57B653 /* DMSans_18pt-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-LightItalic.ttf"; path = "../assets/fonts/DMSans_18pt-LightItalic.ttf"; sourceTree = "<group>"; };
+		2CEC5F831A4342AAAFB03A9D /* DMSans_18pt-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-BoldItalic.ttf"; path = "../assets/fonts/DMSans_18pt-BoldItalic.ttf"; sourceTree = "<group>"; };
+		32EA0EE82DFA4FD0961EAE12 /* DMSans_24pt-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-BoldItalic.ttf"; path = "../assets/fonts/DMSans_24pt-BoldItalic.ttf"; sourceTree = "<group>"; };
+		35427483277A4AA599806593 /* DMSans_24pt-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-ExtraLight.ttf"; path = "../assets/fonts/DMSans_24pt-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-swiftride.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftride.debug.xcconfig"; path = "Target Support Files/Pods-swiftride/Pods-swiftride.debug.xcconfig"; sourceTree = "<group>"; };
+		3BF1B5CCCE7C4DCC8A777644 /* DMSans_18pt-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-ExtraBold.ttf"; path = "../assets/fonts/DMSans_18pt-ExtraBold.ttf"; sourceTree = "<group>"; };
+		40A9A055FCFD45A4A4440131 /* DMSans_24pt-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-MediumItalic.ttf"; path = "../assets/fonts/DMSans_24pt-MediumItalic.ttf"; sourceTree = "<group>"; };
+		42E94BC3BDBE499AB105C1FC /* DMSans_36pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-SemiBoldItalic.ttf"; path = "../assets/fonts/DMSans_36pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		453CF234571841BFB63BBC6A /* DMSans_24pt-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-Italic.ttf"; path = "../assets/fonts/DMSans_24pt-Italic.ttf"; sourceTree = "<group>"; };
+		487A913E993748BFAABD16B6 /* DMSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-ExtraLightItalic.ttf"; path = "../assets/fonts/DMSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		49203FF2FDFF4BB2A845DC4A /* DMSans_36pt-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-ExtraLight.ttf"; path = "../assets/fonts/DMSans_36pt-ExtraLight.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-swiftride.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftride.release.xcconfig"; path = "Target Support Files/Pods-swiftride/Pods-swiftride.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-swiftride-swiftrideTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftride-swiftrideTests.debug.xcconfig"; path = "Target Support Files/Pods-swiftride-swiftrideTests/Pods-swiftride-swiftrideTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D452131B42444D0BD8CA449 /* DMSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Medium.ttf"; path = "../assets/fonts/DMSans-Medium.ttf"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-swiftride.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-swiftride.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6211CD700DD844DCB1CE1D35 /* DMSans-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-ThinItalic.ttf"; path = "../assets/fonts/DMSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		6373CFA132B443E4B57844ED /* DMSans_36pt-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-Light.ttf"; path = "../assets/fonts/DMSans_36pt-Light.ttf"; sourceTree = "<group>"; };
+		69F0D25416A94575A8E50DEE /* DMSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Light.ttf"; path = "../assets/fonts/DMSans-Light.ttf"; sourceTree = "<group>"; };
+		6B03F8910CE04E44BD7AD94F /* DMSans_36pt-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-BlackItalic.ttf"; path = "../assets/fonts/DMSans_36pt-BlackItalic.ttf"; sourceTree = "<group>"; };
+		6C8C68808DF848F492B1D177 /* DMSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-MediumItalic.ttf"; path = "../assets/fonts/DMSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		6D51CB6E703B497B8FDC0A5E /* DMSans-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-ExtraLight.ttf"; path = "../assets/fonts/DMSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		73AD2FCB24F94769B8A20E91 /* DMSans_18pt-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-Regular.ttf"; path = "../assets/fonts/DMSans_18pt-Regular.ttf"; sourceTree = "<group>"; };
+		79817BFD21984DE0AD66B668 /* DMSans_18pt-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-Thin.ttf"; path = "../assets/fonts/DMSans_18pt-Thin.ttf"; sourceTree = "<group>"; };
+		79937247CC094CF6A1A4F309 /* DMSans_24pt-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-Medium.ttf"; path = "../assets/fonts/DMSans_24pt-Medium.ttf"; sourceTree = "<group>"; };
+		7C7890A6FAD14ADAA4C46B99 /* DMSans_24pt-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-ThinItalic.ttf"; path = "../assets/fonts/DMSans_24pt-ThinItalic.ttf"; sourceTree = "<group>"; };
+		7DD873492D804A9E90780D4B /* DMSans_36pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/DMSans_36pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		7DEE45488ACF4927852F2C12 /* DMSans_36pt-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-Medium.ttf"; path = "../assets/fonts/DMSans_36pt-Medium.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = swiftride/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		858E6D2D273A4FB1B5F339FA /* DMSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Italic.ttf"; path = "../assets/fonts/DMSans-Italic.ttf"; sourceTree = "<group>"; };
+		871A7376942644FD95F273AB /* DMSans_18pt-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-ExtraLightItalic.ttf"; path = "../assets/fonts/DMSans_18pt-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-swiftride-swiftrideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftride-swiftrideTests.release.xcconfig"; path = "Target Support Files/Pods-swiftride-swiftrideTests/Pods-swiftride-swiftrideTests.release.xcconfig"; sourceTree = "<group>"; };
+		946037CCF3254C6AB7E2C1E2 /* DMSans_36pt-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-LightItalic.ttf"; path = "../assets/fonts/DMSans_36pt-LightItalic.ttf"; sourceTree = "<group>"; };
+		9D7C0181C5074241A87219ED /* DMSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-ExtraBoldItalic.ttf"; path = "../assets/fonts/DMSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		9F9EDBE7368A4CC081E08E06 /* DMSans_36pt-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-Bold.ttf"; path = "../assets/fonts/DMSans_36pt-Bold.ttf"; sourceTree = "<group>"; };
+		A045A09510CC48ABA44BE015 /* DMSans_36pt-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-Thin.ttf"; path = "../assets/fonts/DMSans_36pt-Thin.ttf"; sourceTree = "<group>"; };
+		AAE8BF996BF14C5F9D63366C /* DMSans_36pt-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-Regular.ttf"; path = "../assets/fonts/DMSans_36pt-Regular.ttf"; sourceTree = "<group>"; };
+		AF5C38C0DC8541E5A57AB22A /* DMSans_18pt-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-Black.ttf"; path = "../assets/fonts/DMSans_18pt-Black.ttf"; sourceTree = "<group>"; };
+		B5F9A3D163C349E088920E6E /* DMSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Regular.ttf"; path = "../assets/fonts/DMSans-Regular.ttf"; sourceTree = "<group>"; };
+		B67E4BF8BD6847E5AABCF9F6 /* DMSans_24pt-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-Bold.ttf"; path = "../assets/fonts/DMSans_24pt-Bold.ttf"; sourceTree = "<group>"; };
+		B68FF25E353D4F1D9AEDF4C8 /* DMSans_24pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/DMSans_24pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B6BB37AF9E124919A33D4456 /* DMSans_24pt-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-Regular.ttf"; path = "../assets/fonts/DMSans_24pt-Regular.ttf"; sourceTree = "<group>"; };
+		B910D907CC4045229FE96816 /* DMSans_24pt-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-ExtraLightItalic.ttf"; path = "../assets/fonts/DMSans_24pt-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B924E766598948469E6DDDC1 /* DMSans_36pt-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-MediumItalic.ttf"; path = "../assets/fonts/DMSans_36pt-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C11170BD9BB844508B31C7EC /* DMSans_36pt-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-BoldItalic.ttf"; path = "../assets/fonts/DMSans_36pt-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C1B1602B379948768F3D6400 /* DMSans_18pt-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-ExtraLight.ttf"; path = "../assets/fonts/DMSans_18pt-ExtraLight.ttf"; sourceTree = "<group>"; };
+		C1DA3BD8B141435BBDB3FABF /* DMSans_18pt-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-Light.ttf"; path = "../assets/fonts/DMSans_18pt-Light.ttf"; sourceTree = "<group>"; };
+		C20BC368AB544EB5A5C1625B /* DMSans_18pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/DMSans_18pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		C5ACD797058E4E86B133AC06 /* DMSans_24pt-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-Thin.ttf"; path = "../assets/fonts/DMSans_24pt-Thin.ttf"; sourceTree = "<group>"; };
+		C7514F4E9D264114963555BE /* DMSans_36pt-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-ExtraLightItalic.ttf"; path = "../assets/fonts/DMSans_36pt-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		CAFC21DE20F743D581705AE0 /* DMSans_18pt-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-Bold.ttf"; path = "../assets/fonts/DMSans_18pt-Bold.ttf"; sourceTree = "<group>"; };
+		CBF8C5BDF9F949F89C356D1E /* DMSans_24pt-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-Black.ttf"; path = "../assets/fonts/DMSans_24pt-Black.ttf"; sourceTree = "<group>"; };
+		CD096FF4D4394B088FFDBBC9 /* DMSans-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Thin.ttf"; path = "../assets/fonts/DMSans-Thin.ttf"; sourceTree = "<group>"; };
+		D255BE60C94B41E783CB414C /* DMSans_24pt-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-LightItalic.ttf"; path = "../assets/fonts/DMSans_24pt-LightItalic.ttf"; sourceTree = "<group>"; };
+		D67006B2F1C44ACA92B7F99E /* DMSans_18pt-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-SemiBold.ttf"; path = "../assets/fonts/DMSans_18pt-SemiBold.ttf"; sourceTree = "<group>"; };
+		D786CAD80A21466EA36C73DD /* DMSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-LightItalic.ttf"; path = "../assets/fonts/DMSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		D90A83F147D3488490DCE268 /* DMSans-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-Black.ttf"; path = "../assets/fonts/DMSans-Black.ttf"; sourceTree = "<group>"; };
+		DA8DC25787BD4A02A9EDEDA5 /* DMSans_24pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_24pt-SemiBoldItalic.ttf"; path = "../assets/fonts/DMSans_24pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		DE1C5A668EA74C839B3428E0 /* DMSans_36pt-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-Italic.ttf"; path = "../assets/fonts/DMSans_36pt-Italic.ttf"; sourceTree = "<group>"; };
+		DFE1165BD1584A5D9526BFF3 /* DMSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-SemiBoldItalic.ttf"; path = "../assets/fonts/DMSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		EC8C63E840724F10A2B9726C /* DMSans-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-BlackItalic.ttf"; path = "../assets/fonts/DMSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F0C667E768D7473489C71334 /* DMSans_18pt-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-ThinItalic.ttf"; path = "../assets/fonts/DMSans_18pt-ThinItalic.ttf"; sourceTree = "<group>"; };
+		F7D277313E6D4D83ABC19983 /* DMSans_36pt-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-ExtraBold.ttf"; path = "../assets/fonts/DMSans_36pt-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F960AE61A00747F79BF6FF58 /* DMSans_18pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-SemiBoldItalic.ttf"; path = "../assets/fonts/DMSans_18pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FC852DEC4F63487786DFB986 /* DMSans_36pt-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_36pt-ThinItalic.ttf"; path = "../assets/fonts/DMSans_36pt-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FD105670F6B64EEDBC525E3D /* DMSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans-BoldItalic.ttf"; path = "../assets/fonts/DMSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FDDF5F0326B84D1385FBAB8F /* DMSans_18pt-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DMSans_18pt-Medium.ttf"; path = "../assets/fonts/DMSans_18pt-Medium.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-swiftride-swiftrideTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-swiftride.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* swiftrideTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* swiftrideTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = swiftrideTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* swiftride */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = swiftride;
+			sourceTree = "<group>";
+		};
+		276CE5ADEB4C452E99BF8255 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D90A83F147D3488490DCE268 /* DMSans-Black.ttf */,
+				EC8C63E840724F10A2B9726C /* DMSans-BlackItalic.ttf */,
+				2B27C661594343F5979BD0CF /* DMSans-Bold.ttf */,
+				FD105670F6B64EEDBC525E3D /* DMSans-BoldItalic.ttf */,
+				09475432F8D445A4B9A2F0A5 /* DMSans-ExtraBold.ttf */,
+				9D7C0181C5074241A87219ED /* DMSans-ExtraBoldItalic.ttf */,
+				6D51CB6E703B497B8FDC0A5E /* DMSans-ExtraLight.ttf */,
+				487A913E993748BFAABD16B6 /* DMSans-ExtraLightItalic.ttf */,
+				858E6D2D273A4FB1B5F339FA /* DMSans-Italic.ttf */,
+				69F0D25416A94575A8E50DEE /* DMSans-Light.ttf */,
+				D786CAD80A21466EA36C73DD /* DMSans-LightItalic.ttf */,
+				5D452131B42444D0BD8CA449 /* DMSans-Medium.ttf */,
+				6C8C68808DF848F492B1D177 /* DMSans-MediumItalic.ttf */,
+				B5F9A3D163C349E088920E6E /* DMSans-Regular.ttf */,
+				0AD5ACEEEB9944B08394A781 /* DMSans-SemiBold.ttf */,
+				DFE1165BD1584A5D9526BFF3 /* DMSans-SemiBoldItalic.ttf */,
+				CD096FF4D4394B088FFDBBC9 /* DMSans-Thin.ttf */,
+				6211CD700DD844DCB1CE1D35 /* DMSans-ThinItalic.ttf */,
+				AF5C38C0DC8541E5A57AB22A /* DMSans_18pt-Black.ttf */,
+				0965F8B901364A6FA5D8FA12 /* DMSans_18pt-BlackItalic.ttf */,
+				CAFC21DE20F743D581705AE0 /* DMSans_18pt-Bold.ttf */,
+				2CEC5F831A4342AAAFB03A9D /* DMSans_18pt-BoldItalic.ttf */,
+				3BF1B5CCCE7C4DCC8A777644 /* DMSans_18pt-ExtraBold.ttf */,
+				C20BC368AB544EB5A5C1625B /* DMSans_18pt-ExtraBoldItalic.ttf */,
+				C1B1602B379948768F3D6400 /* DMSans_18pt-ExtraLight.ttf */,
+				871A7376942644FD95F273AB /* DMSans_18pt-ExtraLightItalic.ttf */,
+				1D1F5D99D263414D837E0FDB /* DMSans_18pt-Italic.ttf */,
+				C1DA3BD8B141435BBDB3FABF /* DMSans_18pt-Light.ttf */,
+				2C5C52F5490E462D9E57B653 /* DMSans_18pt-LightItalic.ttf */,
+				FDDF5F0326B84D1385FBAB8F /* DMSans_18pt-Medium.ttf */,
+				1A5E694167474CB79DC4D6F7 /* DMSans_18pt-MediumItalic.ttf */,
+				73AD2FCB24F94769B8A20E91 /* DMSans_18pt-Regular.ttf */,
+				D67006B2F1C44ACA92B7F99E /* DMSans_18pt-SemiBold.ttf */,
+				F960AE61A00747F79BF6FF58 /* DMSans_18pt-SemiBoldItalic.ttf */,
+				79817BFD21984DE0AD66B668 /* DMSans_18pt-Thin.ttf */,
+				F0C667E768D7473489C71334 /* DMSans_18pt-ThinItalic.ttf */,
+				CBF8C5BDF9F949F89C356D1E /* DMSans_24pt-Black.ttf */,
+				1804AE25EA124473824C2EAD /* DMSans_24pt-BlackItalic.ttf */,
+				B67E4BF8BD6847E5AABCF9F6 /* DMSans_24pt-Bold.ttf */,
+				32EA0EE82DFA4FD0961EAE12 /* DMSans_24pt-BoldItalic.ttf */,
+				1EBB1BDDDE8D43909BFD70F3 /* DMSans_24pt-ExtraBold.ttf */,
+				B68FF25E353D4F1D9AEDF4C8 /* DMSans_24pt-ExtraBoldItalic.ttf */,
+				35427483277A4AA599806593 /* DMSans_24pt-ExtraLight.ttf */,
+				B910D907CC4045229FE96816 /* DMSans_24pt-ExtraLightItalic.ttf */,
+				453CF234571841BFB63BBC6A /* DMSans_24pt-Italic.ttf */,
+				0108DEAF583C42CA94D60CD9 /* DMSans_24pt-Light.ttf */,
+				D255BE60C94B41E783CB414C /* DMSans_24pt-LightItalic.ttf */,
+				79937247CC094CF6A1A4F309 /* DMSans_24pt-Medium.ttf */,
+				40A9A055FCFD45A4A4440131 /* DMSans_24pt-MediumItalic.ttf */,
+				B6BB37AF9E124919A33D4456 /* DMSans_24pt-Regular.ttf */,
+				2782908F2BC6461F98E6681E /* DMSans_24pt-SemiBold.ttf */,
+				DA8DC25787BD4A02A9EDEDA5 /* DMSans_24pt-SemiBoldItalic.ttf */,
+				C5ACD797058E4E86B133AC06 /* DMSans_24pt-Thin.ttf */,
+				7C7890A6FAD14ADAA4C46B99 /* DMSans_24pt-ThinItalic.ttf */,
+				0ECEEC4D65FD4A9E8991C6EA /* DMSans_36pt-Black.ttf */,
+				6B03F8910CE04E44BD7AD94F /* DMSans_36pt-BlackItalic.ttf */,
+				9F9EDBE7368A4CC081E08E06 /* DMSans_36pt-Bold.ttf */,
+				C11170BD9BB844508B31C7EC /* DMSans_36pt-BoldItalic.ttf */,
+				F7D277313E6D4D83ABC19983 /* DMSans_36pt-ExtraBold.ttf */,
+				7DD873492D804A9E90780D4B /* DMSans_36pt-ExtraBoldItalic.ttf */,
+				49203FF2FDFF4BB2A845DC4A /* DMSans_36pt-ExtraLight.ttf */,
+				C7514F4E9D264114963555BE /* DMSans_36pt-ExtraLightItalic.ttf */,
+				DE1C5A668EA74C839B3428E0 /* DMSans_36pt-Italic.ttf */,
+				6373CFA132B443E4B57844ED /* DMSans_36pt-Light.ttf */,
+				946037CCF3254C6AB7E2C1E2 /* DMSans_36pt-LightItalic.ttf */,
+				7DEE45488ACF4927852F2C12 /* DMSans_36pt-Medium.ttf */,
+				B924E766598948469E6DDDC1 /* DMSans_36pt-MediumItalic.ttf */,
+				AAE8BF996BF14C5F9D63366C /* DMSans_36pt-Regular.ttf */,
+				1C7EBB91E52442558507A7CF /* DMSans_36pt-SemiBold.ttf */,
+				42E94BC3BDBE499AB105C1FC /* DMSans_36pt-SemiBoldItalic.ttf */,
+				A045A09510CC48ABA44BE015 /* DMSans_36pt-Thin.ttf */,
+				FC852DEC4F63487786DFB986 /* DMSans_36pt-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-swiftride.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-swiftride-swiftrideTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* swiftride */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* swiftrideTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				276CE5ADEB4C452E99BF8255 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* swiftride.app */,
+				00E356EE1AD99517003FC87E /* swiftrideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-swiftride.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-swiftride.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-swiftride-swiftrideTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-swiftride-swiftrideTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* swiftrideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "swiftrideTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = swiftrideTests;
+			productName = swiftrideTests;
+			productReference = 00E356EE1AD99517003FC87E /* swiftrideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* swiftride */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "swiftride" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftride;
+			productName = swiftride;
+			productReference = 13B07F961A680F5B00A75B9A /* swiftride.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "swiftride" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* swiftride */,
+				00E356ED1AD99517003FC87E /* swiftrideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0D879053E1D94DDB866AC407 /* DMSans-Black.ttf in Resources */,
+				776FACEA67994384B3E76307 /* DMSans-BlackItalic.ttf in Resources */,
+				7DE4D78652784E81B2F23FCE /* DMSans-Bold.ttf in Resources */,
+				A4094D7AF3E84DEFB5B357E6 /* DMSans-BoldItalic.ttf in Resources */,
+				4CF37DB20C344E79980B099B /* DMSans-ExtraBold.ttf in Resources */,
+				38BE1727A86D47F78089D67C /* DMSans-ExtraBoldItalic.ttf in Resources */,
+				7469D0D409D9471D8893DCE6 /* DMSans-ExtraLight.ttf in Resources */,
+				AA382BB2824F447BB533EF43 /* DMSans-ExtraLightItalic.ttf in Resources */,
+				D15845380834431CB6EC2E1F /* DMSans-Italic.ttf in Resources */,
+				4B46AF51B8274F4A9508F052 /* DMSans-Light.ttf in Resources */,
+				E9CDAB1DEA1041DE9BA7B1BC /* DMSans-LightItalic.ttf in Resources */,
+				A4E6596A38F241EC88B8AA09 /* DMSans-Medium.ttf in Resources */,
+				EB12E5949678417C8A2EB734 /* DMSans-MediumItalic.ttf in Resources */,
+				DE0C58276D5A4641A2D504AB /* DMSans-Regular.ttf in Resources */,
+				ED26BC5F2D3D4BAA8564BCF8 /* DMSans-SemiBold.ttf in Resources */,
+				7387969F905E4BC3BE62FC3B /* DMSans-SemiBoldItalic.ttf in Resources */,
+				CC7BF078FC514D8D8E7F8201 /* DMSans-Thin.ttf in Resources */,
+				9A5E44692293417C9C94A234 /* DMSans-ThinItalic.ttf in Resources */,
+				2F6AF07045E64E768DD574A9 /* DMSans_18pt-Black.ttf in Resources */,
+				37C1AAF41CFB42E886258DA4 /* DMSans_18pt-BlackItalic.ttf in Resources */,
+				4D12CA2DE7234AB6963C1068 /* DMSans_18pt-Bold.ttf in Resources */,
+				A3961EED00B94364AAE692C9 /* DMSans_18pt-BoldItalic.ttf in Resources */,
+				5CD23B7C61C94A2F9B56B96F /* DMSans_18pt-ExtraBold.ttf in Resources */,
+				24A61D8E378F422582490266 /* DMSans_18pt-ExtraBoldItalic.ttf in Resources */,
+				0150728FDE084BD3BCF50580 /* DMSans_18pt-ExtraLight.ttf in Resources */,
+				BBAB52063E7F416EAE077D55 /* DMSans_18pt-ExtraLightItalic.ttf in Resources */,
+				50D309EBF5B44B008EBAFF6D /* DMSans_18pt-Italic.ttf in Resources */,
+				DC87FA17E0B34DE5BCFA36C5 /* DMSans_18pt-Light.ttf in Resources */,
+				F3E00766760C46EF8FCD9ED7 /* DMSans_18pt-LightItalic.ttf in Resources */,
+				AB1541737DC045678688ABAE /* DMSans_18pt-Medium.ttf in Resources */,
+				0732B3945A914FF2A74B7DC0 /* DMSans_18pt-MediumItalic.ttf in Resources */,
+				9A282727F0E741AFA18661AC /* DMSans_18pt-Regular.ttf in Resources */,
+				5433875CEB6444A0B0CECE88 /* DMSans_18pt-SemiBold.ttf in Resources */,
+				0222FE1FC84A4FED9C57F238 /* DMSans_18pt-SemiBoldItalic.ttf in Resources */,
+				283D3450F96C408CBB787098 /* DMSans_18pt-Thin.ttf in Resources */,
+				C923C47FF5254B2FA238A43A /* DMSans_18pt-ThinItalic.ttf in Resources */,
+				6DF54291BC00490F9BBE09B3 /* DMSans_24pt-Black.ttf in Resources */,
+				73CDE76A6B5346CB817AD641 /* DMSans_24pt-BlackItalic.ttf in Resources */,
+				2F49E9E79E494251B31827F7 /* DMSans_24pt-Bold.ttf in Resources */,
+				69500B57D5F34F5395E8E312 /* DMSans_24pt-BoldItalic.ttf in Resources */,
+				1C6B08B7A09745CEB5FD12D8 /* DMSans_24pt-ExtraBold.ttf in Resources */,
+				2ACE7A6F4DF1458D94344D64 /* DMSans_24pt-ExtraBoldItalic.ttf in Resources */,
+				8883646B6ABA416B94B3F122 /* DMSans_24pt-ExtraLight.ttf in Resources */,
+				D90936A9F299429C9A6B33FD /* DMSans_24pt-ExtraLightItalic.ttf in Resources */,
+				C4C77E0DAC6547939B4993F0 /* DMSans_24pt-Italic.ttf in Resources */,
+				CCCFF81FEBE54CD882E99704 /* DMSans_24pt-Light.ttf in Resources */,
+				A26190C1382248369B22832C /* DMSans_24pt-LightItalic.ttf in Resources */,
+				6D1934E012984E0FBD13F3AC /* DMSans_24pt-Medium.ttf in Resources */,
+				A86E7EF55DFC4B519B281CA1 /* DMSans_24pt-MediumItalic.ttf in Resources */,
+				B06D78C7F24F4BCFA638E9E7 /* DMSans_24pt-Regular.ttf in Resources */,
+				EFED54F984034ED293BD5921 /* DMSans_24pt-SemiBold.ttf in Resources */,
+				A65A255B488643F48A499120 /* DMSans_24pt-SemiBoldItalic.ttf in Resources */,
+				415E7F78D1984597B2B64E57 /* DMSans_24pt-Thin.ttf in Resources */,
+				A86153F7466E48C6AD425742 /* DMSans_24pt-ThinItalic.ttf in Resources */,
+				9B44F0FAC4824FE3935730E5 /* DMSans_36pt-Black.ttf in Resources */,
+				AA46D7D8748342B489BF4C3E /* DMSans_36pt-BlackItalic.ttf in Resources */,
+				3122C5EC1AFF4DB6BBEEA09F /* DMSans_36pt-Bold.ttf in Resources */,
+				7C4313FD44CE4C33A360BD51 /* DMSans_36pt-BoldItalic.ttf in Resources */,
+				76992B4480384CC5A37470A9 /* DMSans_36pt-ExtraBold.ttf in Resources */,
+				4C5C76D3D50B46DC95D43F81 /* DMSans_36pt-ExtraBoldItalic.ttf in Resources */,
+				8F6E36C28A504ABF9D942285 /* DMSans_36pt-ExtraLight.ttf in Resources */,
+				28DDD911781D4C65B86FD1F5 /* DMSans_36pt-ExtraLightItalic.ttf in Resources */,
+				AF086C9288324ED991F92BE3 /* DMSans_36pt-Italic.ttf in Resources */,
+				91E742BAA8B2410396295AEB /* DMSans_36pt-Light.ttf in Resources */,
+				66CFBB530DDC41B8B904F13C /* DMSans_36pt-LightItalic.ttf in Resources */,
+				2D53E62B4CFC4C8CACF1DC2E /* DMSans_36pt-Medium.ttf in Resources */,
+				162314A944FC43288593F377 /* DMSans_36pt-MediumItalic.ttf in Resources */,
+				B461C38E83B1465FB236318F /* DMSans_36pt-Regular.ttf in Resources */,
+				E2FE5057DD214539BC2A9444 /* DMSans_36pt-SemiBold.ttf in Resources */,
+				D919B291F45B4E6595B9678E /* DMSans_36pt-SemiBoldItalic.ttf in Resources */,
+				0A4BCC7E170F4C8D826AB7DC /* DMSans_36pt-Thin.ttf in Resources */,
+				E095D772573E4B728B2A57E2 /* DMSans_36pt-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftride/Pods-swiftride-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftride/Pods-swiftride-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftride/Pods-swiftride-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftride-swiftrideTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftride-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftride-swiftrideTests/Pods-swiftride-swiftrideTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftride-swiftrideTests/Pods-swiftride-swiftrideTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftride-swiftrideTests/Pods-swiftride-swiftrideTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftride/Pods-swiftride-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftride/Pods-swiftride-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftride/Pods-swiftride-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftride-swiftrideTests/Pods-swiftride-swiftrideTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftride-swiftrideTests/Pods-swiftride-swiftrideTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftride-swiftrideTests/Pods-swiftride-swiftrideTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* swiftrideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* swiftride */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-swiftride-swiftrideTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = swiftrideTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftride.app/swiftride";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-swiftride-swiftrideTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = swiftrideTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftride.app/swiftride";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-swiftride.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = swiftride/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = swiftride;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-swiftride.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = swiftride/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = swiftride;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CXX = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CXX = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD = "";
+				LDPLUSPLUS = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "swiftrideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "swiftride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "swiftride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
