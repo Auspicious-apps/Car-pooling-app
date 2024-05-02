@@ -5,10 +5,7 @@ import CommonText from './commonText';
 
 const InputText = (props:any) => {
     const { txt, placeholder, img2, } = props;
-    const [secure, setSecure] = useState(false);
-    const handlePress = () => {
-        setSecure(!secure);
-    };
+ 
 
     return (
         <View style={{height:85,justifyContent:'space-between',marginVertical:5}}>
@@ -22,7 +19,7 @@ const InputText = (props:any) => {
                     onChangeText={props?.onChangeText}
                     value={props?.value}
                     autoCapitalize={props?.autoCapitalize}
-                    secureTextEntry={secure}
+                    secureTextEntry={props?.secureTextEntry}
                     style={[styles.input, img2 ? styles.inputWithImage : null]}
                     editable={true}
                     multiline={props?.multiline}
@@ -31,7 +28,7 @@ onFocus={props?.onFocus}
 numberOfLines={props?.numberOfLines}
                 />
                 {img2 && (
-                <TouchableOpacity onPress={handlePress}>
+                <TouchableOpacity onPress={props.imagepress}>
                     <Image source={props.img2} style={[styles.image, props.imagestyle]} resizeMode='contain'/>
                 </TouchableOpacity>
                 )}

@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import React from 'react';
+import React, { useState } from 'react';
 import { Colors, Texts, imgUrl } from '../../constant';
 import InputText from '../../components/textInput';
 import CommonText from '../../components/commonText';
@@ -18,6 +18,10 @@ import { ROUTE_NAMES } from '../../navigation/StackNavigation';
 
 const SignUp = () => {
   const [navigate]=MyNavigation()
+  const [secure, setSecure] = useState(false);
+    const handlePress = () => {
+        setSecure(!secure);
+    };
   return (
     <SafeAreaView style={styles.containor}>
       <StatusBar backgroundColor={Colors.Black} barStyle={'light-content'} />
@@ -32,6 +36,8 @@ const SignUp = () => {
             placeholder={Texts.Enter_Password}
             txt={Texts.Password}
             img2={imgUrl.eye}
+            secureTextEntry={secure}
+            imagepress={handlePress}
           />
           <InputText
             placeholder={Texts.Enter_R_Pass}
@@ -73,11 +79,6 @@ const SignUp = () => {
             </TouchableOpacity>
           </View>
         </View>
-        
-        
-       
-
-
       </ScrollView>
     </SafeAreaView>
   );

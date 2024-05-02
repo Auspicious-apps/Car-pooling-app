@@ -15,7 +15,10 @@ import Fontf from '../../constant/Fontsf';
 import { ROUTE_NAMES } from '../../navigation/StackNavigation';
 
 const Login = ({navigation}:any) => {
-
+    const [secure, setSecure] = useState(false);
+    const handlePress = () => {
+        setSecure(!secure);
+    };
   return (
     <SafeAreaView style={styles.containor}>
       <StatusBar backgroundColor={Colors.Black} barStyle={'light-content'} />
@@ -24,7 +27,10 @@ const Login = ({navigation}:any) => {
           <CommonText style={styles.signin}>{Texts.Sign_IN}</CommonText>
           <InputText placeholder={Texts.Enter_Email} txt={Texts.Email} />
           <InputText placeholder={Texts.Enter_Password} txt={Texts.Password}
-            img2={imgUrl.eye} />
+            img2={imgUrl.eye}
+            secureTextEntry={secure}
+            imagepress={handlePress}
+            />
 
           <View style={styles.rmfcView}>
             <View style={styles.rmpassword}>
@@ -52,6 +58,7 @@ const Login = ({navigation}:any) => {
             name={Texts.continue_with_Lyft}
             button={styles.continuebutton}
             btnTextStyle={styles.buttontxt}
+
             img1style={{ marginRight: 5 }}
           />
           <View style={styles.notaccount}>

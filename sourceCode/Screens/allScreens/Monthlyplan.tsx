@@ -17,9 +17,9 @@ import Fontf from '../../constant/Fontsf';
 import fontstylee from '../../constant/fstyles';
 import ViewCommon from '../../components/commonView';
 import OpacityButton from '../../components/opacityButton';
+import { ROUTE_NAMES } from '../../navigation/StackNavigation';
 
-const Monthlyplan = () => {
-    const [showImage, setShowImage] = useState(false);
+const Monthlyplan = ({navigation}:any) => {
     const [data, setData] = useState([
 
     {
@@ -69,13 +69,15 @@ const toggleImageVisibility = (index) => {
   };
 
   const renderItem = ({item,index}) => (
-    <View>
+    <TouchableOpacity 
+    onPress={() => toggleImageVisibility(index)}
+    >
         <View style={[styles.card, { borderColor: item.showImage ? Colors.Green : Colors.light_green }]}>
 
       <View style={styles.main_card_view}>
         <ViewCommon>
           <TouchableOpacity style={styles.selecticon}
-          onPress={() => toggleImageVisibility(index)}
+         
           >
                         {item.showImage && <Image source={imgUrl.Ellipse} style={styles.selectedimg} />}
  
@@ -90,7 +92,7 @@ const toggleImageVisibility = (index) => {
       <CommonText style={styles.Overage}>{item.Overage}</CommonText>
     </View>
     <Image source={item.imggg} style={styles.sticker}/>
-    </View>
+    </TouchableOpacity>
   );
   return (
     <SafeView style={{padding:0}}>
@@ -109,6 +111,7 @@ const toggleImageVisibility = (index) => {
         <OpacityButton
         buttongradient={styles.buttonn}
         name={Texts.Continue_to_schedule}
+        pressButton={()=>{navigation.navigate(ROUTE_NAMES.PickupScreen)}}
         />
       </ScrollView>
     </SafeView>

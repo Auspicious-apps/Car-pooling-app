@@ -3,6 +3,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Image, StyleSheet, View } from "react-native";
 import { AvailiableCars, KeysScreen, PerformScreen, SettingsScreen, UserScreen } from "../Screens/allScreens/tabScreens";
 import { imgUrl } from "../constant";
+import Fontf from "../constant/Fontsf";
 const Tab = createBottomTabNavigator();
 const TabNavigator = () => {
 
@@ -95,7 +96,7 @@ const styles = StyleSheet.create({
         
     },
 
-    tabBarLabelStyle: { fontSize: 12, fontWeight: '300', lineHeight: 16, fontFamily: 'Poppins-Regular', color: "#8F9A90" },
+    tabBarLabelStyle: { fontSize: 12, fontWeight: '300', lineHeight: 16, fontFamily: Fontf.Dm_Medium, color: "#8F9A90" },
     icon: { height: 20, width: 20, },
     iconFocus:{ height: 20, width: 20, tintColor:'#57E667'},
 
