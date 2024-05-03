@@ -177,10 +177,12 @@ const DetailsScreen = ({navigation}:any) => {
             ref={swiperRef}
             data={data}
             horizontal
-            paginationActiveColor="green"
-            paginationDefaultColor="white"
+            paginationActiveColor={Colors.Green}
+            paginationDefaultColor={'#1D2125'}
             showPagination
             pagingEnabled
+            paginationStyleItemActive={styles.paginationStyle_indicator}
+            paginationStyleItemInactive={styles.paginationStyle_indicator}
             index={currentIndex}
             onChangeIndex={({index}) => setCurrentIndex(index)}
             renderItem={renderItem}
@@ -237,11 +239,13 @@ const DetailsScreen = ({navigation}:any) => {
             
           </View>
         )}
-        <OpacityButton
+       
+      </ScrollView>
+      <OpacityButton
         name={Texts.Choose}
         pressButton={()=>{navigation.navigate(ROUTE_NAMES.Monthlyplan)}}
+        buttongradient={styles.button}
         />
-      </ScrollView>
     </SafeView>
   );
 };
@@ -274,8 +278,11 @@ const styles = StyleSheet.create({
     fontSize: 24,
     color: Colors.Green,
     fontFamily: Fontf.Dm_Bold,
-    marginBottom: 10,
+    marginBottom: 15,
   },
   additinol_text: {marginLeft: 5},
   Car_Basics: {marginVertical: 15, fontSize: 16, fontFamily: Fontf.Dm_Bold},
+  paginationStyle_indicator:{height:10,width:10,marginHorizontal:4},
+  button: {position: 'absolute', bottom: 0},
+
 });

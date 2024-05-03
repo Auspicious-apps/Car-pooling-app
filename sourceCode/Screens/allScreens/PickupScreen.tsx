@@ -14,8 +14,9 @@ import CommonText from '../../components/commonText';
 import ViewCommon from '../../components/commonView';
 import Fontf from '../../constant/Fontsf';
 import OpacityButton from '../../components/opacityButton';
+import { ROUTE_NAMES } from '../../navigation/StackNavigation';
 
-const PickupScreen = () => {
+const PickupScreen = ({navigation}:any) => {
   const arrayData = [
     {
       id: 1,
@@ -55,6 +56,7 @@ const PickupScreen = () => {
       </ViewCommon>
     );
   };
+  // CheckoutScreen
   return (
     <SafeView>
       <HeaderComp img={imgUrl.Back_icon} txt={Texts.Pick_Up} />
@@ -69,6 +71,7 @@ const PickupScreen = () => {
       />
       <OpacityButton
       name={Texts.Checkout}
+      pressButton={()=>{navigation.navigate(ROUTE_NAMES.CheckoutScreen)}}
       />
     </SafeView>
   );

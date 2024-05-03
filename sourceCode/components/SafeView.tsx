@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     vieww: {
       flex:1,
       backgroundColor:Colors.Black,
-      padding:10
+      padding:13
     },
 });
 

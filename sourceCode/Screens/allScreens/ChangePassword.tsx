@@ -32,11 +32,12 @@ const ChangePassword = () => {
             />
            
        </View>
-       <View style={{height:45,bottom:'6%',position:'absolute',alignSelf:'center'}}>
+     
                 <OpacityButton
                 name={Texts.Save}
+                buttongradient={styles.button}
                 />
-            </View>
+            
     </SafeView>
   )
 }
@@ -46,5 +47,7 @@ export default ChangePassword
 const styles = StyleSheet.create({
     input_view:{
         marginVertical:25
-    }
+    },
+    button: {position: 'absolute', bottom: 0},
+
 })

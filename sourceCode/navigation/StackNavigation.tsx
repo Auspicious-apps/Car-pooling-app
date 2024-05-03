@@ -11,6 +11,19 @@ import Subscription from "../Screens/allScreens/Subscription";
 import PickupScreen from "../Screens/allScreens/PickupScreen";
 import SubMonthlyplan from "../Screens/allScreens/SubMonthlyplan";
 import ChangePassword from "../Screens/allScreens/ChangePassword";
+import GeneralScreen from "../Screens/allScreens/GeneralScreen";
+import PartnershipBenefits from "../Screens/allScreens/PartnershipBenefits";
+import SupporAssistance from "../Screens/allScreens/SupporAssistance";
+import AboutSwift from "../Screens/allScreens/AboutSwift";
+import PolicyScreen from "../Screens/allScreens/PolicyScreen";
+import TermsScreen from "../Screens/allScreens/TermsScreen";
+import RateUsScreen from "../Screens/allScreens/RateUsScreen";
+import CheckoutScreen from "../Screens/allScreens/CheckoutScreen";
+import PayCheckout from "../Screens/allScreens/PayCheckout";
+import PaymentInfo from "../Screens/allScreens/PaymentInfo";
+import AddCard from "../Screens/allScreens/AddCard";
+import Paymentsucces from "../Screens/allScreens/Paymentsucces";
+import CarReserved from "../Screens/allScreens/CarReserved";
 const StackNavigation = () => {
     const Stack = createNativeStackNavigator();
     return (
@@ -31,6 +44,20 @@ const StackNavigation = () => {
             <Stack.Screen name={ROUTE_NAMES.SubMonthlyplan} component={SubMonthlyplan} />
             <Stack.Screen name={ROUTE_NAMES.ChangePassword} component={ChangePassword} />
             <Stack.Screen name={ROUTE_NAMES.PickupScreen} component={PickupScreen} />
+            <Stack.Screen name={ROUTE_NAMES.GeneralScreen} component={GeneralScreen} />
+            <Stack.Screen name={ROUTE_NAMES.PartnershipBenefits} component={PartnershipBenefits} />
+            <Stack.Screen name={ROUTE_NAMES.SupportAssistance} component={SupporAssistance} />
+            <Stack.Screen name={ROUTE_NAMES.AboutSwift} component={AboutSwift} />
+            <Stack.Screen name={ROUTE_NAMES.PolicyScreen} component={PolicyScreen} />
+            <Stack.Screen name={ROUTE_NAMES.TermsScreen} component={TermsScreen} />
+            <Stack.Screen name={ROUTE_NAMES.RateUsScreen} component={RateUsScreen} />
+            <Stack.Screen name={ROUTE_NAMES.CheckoutScreen} component={CheckoutScreen} />
+            <Stack.Screen name={ROUTE_NAMES.PayCheckout} component={PayCheckout} />
+            <Stack.Screen name={ROUTE_NAMES.PaymentInfo} component={PaymentInfo} />
+            <Stack.Screen name={ROUTE_NAMES.AddCard} component={AddCard} />
+            <Stack.Screen name={ROUTE_NAMES.Paymentsucces} component={Paymentsucces} />
+            <Stack.Screen name={ROUTE_NAMES.CarReserved} component={CarReserved} />
+
         </Stack.Navigator>
     )
 }
@@ -53,5 +80,19 @@ export const ROUTE_NAMES ={
     Subscription:'Subscription',
     PickupScreen:'PickupScreen',
     SubMonthlyplan:'SubMonthlyplan',
-    ChangePassword:'ChangePassword'
+    ChangePassword:'ChangePassword',
+    GeneralScreen:'GeneralScreen',
+    PartnershipBenefits:'PartnershipBenefits',
+    SupportAssistance:'SupportAssistance',
+    AboutSwift:'AboutSwift',
+    PolicyScreen:'PolicyScreen',
+    TermsScreen:'TermsScreen',
+    RateUsScreen:'RateUsScreen',
+    CheckoutScreen:'CheckoutScreen',
+    PayCheckout:'PayCheckout',
+    PaymentInfo:'PaymentInfo',
+    AddCard:'AddCard',
+    Paymentsucces:'Paymentsucces',
+    CarReserved:'CarReserved',
+
 }

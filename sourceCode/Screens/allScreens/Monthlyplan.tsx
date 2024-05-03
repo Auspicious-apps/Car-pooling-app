@@ -108,12 +108,13 @@ const toggleImageVisibility = (index) => {
           renderItem={renderItem}
           keyExtractor={item => item.id.toString()}
         />
-        <OpacityButton
+   
+      </ScrollView>
+      <OpacityButton
         buttongradient={styles.buttonn}
         name={Texts.Continue_to_schedule}
         pressButton={()=>{navigation.navigate(ROUTE_NAMES.PickupScreen)}}
         />
-      </ScrollView>
     </SafeView>
   );
 };

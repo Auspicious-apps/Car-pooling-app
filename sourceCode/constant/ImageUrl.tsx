@@ -46,7 +46,25 @@ Camera_Icon:require('../assets/Images/camera_icon.png'),
 Document_Icon:require('../assets/Images/Document_icon.png'),
 W_calendar:require('../assets/Images/white_calendar.png'),
 Delete_Icon:require('../assets/Images/deleteIcon.png'),
-//white_calendar,deleteIcon
+Bell_icon:require('../assets/Images/bell_icon.png'),
+shield_check:require('../assets/Images/shield_check.png'),
+Crown_icon:require('../assets/Images/crown_icon.png'),
+Finger_Icon:require('../assets/Images/finger_Icon.png'),
+Book_icon:require('../assets/Images/book_icon.png'),
+Message_icon:require('../assets/Images/message_icon.png'),
+Search_alt:require('../assets/Images/fi-rr-search-alt.png'),
+Mastercard:require('../assets/Images/logos_mastercard.png'),
+Plus_icon:require('../assets/Images/plus_icon.png'),
+Visa_background:require('../assets/Images/visa_background.jpg'),
+Mastarcard_background:require('../assets/Images/mastarcard_background.jpg'),
+Visa_icon:require('../assets/Images/Visa_icon.png'),
+big_green_check:require('../assets/Images/big_green_check.png'),
+cross_Icon:require('../assets/Images/cross.png'),
+Download_icon:require('../assets/Images/Download_icon.png'),
+
+
+
+
 }
 
 export default imgUrl

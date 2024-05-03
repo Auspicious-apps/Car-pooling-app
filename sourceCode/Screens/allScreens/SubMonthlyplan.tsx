@@ -117,9 +117,9 @@ const SubMonthlyplan = ({navigation}: any) => {
         <OpacityButton
           buttongradient={styles.buttonn}
           name={Texts.Choose}
-          pressButton={() => {
-            navigation.navigate(ROUTE_NAMES.PickupScreen);
-          }}
+          // pressButton={() => {
+          //   navigation.navigate(ROUTE_NAMES.PickupScreen);
+          // }}
           // button={styles.buttonn}
         />
       </ScrollView>

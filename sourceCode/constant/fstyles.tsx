@@ -14,7 +14,10 @@ const fontstylee = StyleSheet.create({
     big_bold_wieght:{fontSize: 24, textAlign: 'center', marginBottom: 10,fontFamily:Fontf.Dm_Bold},
     eighteen_px_txt:{
         fontSize:18,fontFamily:Fontf.Dm_Bold
-    }
+    },
+    sixteen_Bold:{fontSize: 16, fontFamily: Fontf.Dm_Bold},
+    sixteen_light:{fontSize: 16, fontFamily: Fontf.Dm_Regular},
+
 
     
 })
