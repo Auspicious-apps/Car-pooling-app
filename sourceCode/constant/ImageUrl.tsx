@@ -61,10 +61,16 @@ Visa_icon:require('../assets/Images/Visa_icon.png'),
 big_green_check:require('../assets/Images/big_green_check.png'),
 cross_Icon:require('../assets/Images/cross.png'),
 Download_icon:require('../assets/Images/Download_icon.png'),
-
-
-
-
+Unloack_icon:require('../assets/Images/unloack_icon.png'),
+Activate_engine:require('../assets/Images/Activate_engine.png'),
+map_location:require('../assets/Images/map_location.png'),
+Security_shild:require('../assets/Images/Security_shild.png'),
+Proximity_icon:require('../assets/Images/Proximity_icon.png'),
+Deactivate_icon:require('../assets/Images/Deactivate_icon.png'),
+key_Icon:require('../assets/Images/key_Icon.png'),
+tap_to_connect:require('../assets/Images/tap_to_connect.png'),
+key_to_car:require('../assets/Images/key_to_car.png'),
+//key_to_car
 }
 
 export default imgUrl

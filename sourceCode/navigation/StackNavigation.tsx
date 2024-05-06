@@ -24,6 +24,11 @@ import PaymentInfo from "../Screens/allScreens/PaymentInfo";
 import AddCard from "../Screens/allScreens/AddCard";
 import Paymentsucces from "../Screens/allScreens/Paymentsucces";
 import CarReserved from "../Screens/allScreens/CarReserved";
+import ConnectedCar from "../Screens/allScreens/ConnectedCar";
+import SecurityScreen from "../Screens/allScreens/SecurityScreen";
+import ConnectingScreen from "../Screens/allScreens/ConnectingScreen";
+import Founddevices from "../Screens/allScreens/Founddevices";
+import ScanagainConnecting from "../Screens/allScreens/ScanagainConnecting";
 const StackNavigation = () => {
     const Stack = createNativeStackNavigator();
     return (
@@ -57,7 +62,11 @@ const StackNavigation = () => {
             <Stack.Screen name={ROUTE_NAMES.AddCard} component={AddCard} />
             <Stack.Screen name={ROUTE_NAMES.Paymentsucces} component={Paymentsucces} />
             <Stack.Screen name={ROUTE_NAMES.CarReserved} component={CarReserved} />
-
+            <Stack.Screen name={ROUTE_NAMES.ConnectedCar} component={ConnectedCar} />
+            <Stack.Screen name={ROUTE_NAMES.SecurityScreen} component={SecurityScreen} />
+            <Stack.Screen name={ROUTE_NAMES.ConnectingScreen} component={ConnectingScreen} />
+            <Stack.Screen name={ROUTE_NAMES.Founddevices} component={Founddevices} />
+            <Stack.Screen name={ROUTE_NAMES.ScanagainConnecting} component={ScanagainConnecting} />
         </Stack.Navigator>
     )
 }
@@ -94,5 +103,11 @@ export const ROUTE_NAMES ={
     AddCard:'AddCard',
     Paymentsucces:'Paymentsucces',
     CarReserved:'CarReserved',
+    ConnectedCar:'ConnectedCar',
+    SecurityScreen:'SecurityScreen',
+    ConnectingScreen:'ConnectingScreen',
+    Founddevices:'Founddevices',
+    ScanagainConnecting:"ScanagainConnecting",
 
+    
 }
