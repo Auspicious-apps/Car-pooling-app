@@ -29,6 +29,10 @@ import SecurityScreen from "../Screens/allScreens/SecurityScreen";
 import ConnectingScreen from "../Screens/allScreens/ConnectingScreen";
 import Founddevices from "../Screens/allScreens/Founddevices";
 import ScanagainConnecting from "../Screens/allScreens/ScanagainConnecting";
+import FaqScreen from "../Screens/allScreens/FaqScreen";
+import SupportChat from "../Screens/allScreens/SupportChat";
+import LocationScreen from "../Screens/allScreens/LocationScreen";
+import ChooseAddress from "../Screens/allScreens/ChooseAddress";
 const StackNavigation = () => {
     const Stack = createNativeStackNavigator();
     return (
@@ -67,6 +71,10 @@ const StackNavigation = () => {
             <Stack.Screen name={ROUTE_NAMES.ConnectingScreen} component={ConnectingScreen} />
             <Stack.Screen name={ROUTE_NAMES.Founddevices} component={Founddevices} />
             <Stack.Screen name={ROUTE_NAMES.ScanagainConnecting} component={ScanagainConnecting} />
+            <Stack.Screen name={ROUTE_NAMES.FaqScreen} component={FaqScreen} />
+            <Stack.Screen name={ROUTE_NAMES.SupportChat} component={SupportChat} />
+            <Stack.Screen name={ROUTE_NAMES.LocationScreen} component={LocationScreen} />
+            <Stack.Screen name={ROUTE_NAMES.ChooseAddress} component={ChooseAddress} />
         </Stack.Navigator>
     )
 }
@@ -108,6 +116,9 @@ export const ROUTE_NAMES ={
     ConnectingScreen:'ConnectingScreen',
     Founddevices:'Founddevices',
     ScanagainConnecting:"ScanagainConnecting",
-
+    FaqScreen:'FaqScreen',
+    SupportChat:'SupportChat',
+    LocationScreen:'LocationScreen',
+    ChooseAddress:'ChooseAddress'
     
 }

@@ -51,17 +51,13 @@ const KeysScreen = ({navigation}: any) => {
     );
   };
 
-  const bottomSheetModalRef = useRef(null);
-
-  const openBottomSheet = () => {
-    bottomSheetModalRef.current?.present();
-  };
+ 
 
   return (
     <View style={styles.containor}>
       <ViewCommon style={styles.row}>
         <CommonText style={styles.text}>{Texts.Keys}</CommonText>
-        <TouchableOpacity onPress={openBottomSheet}>
+        <TouchableOpacity >
           <Image
             resizeMode="contain"
             style={styles.imgStyle}
@@ -75,13 +71,7 @@ const KeysScreen = ({navigation}: any) => {
         renderItem={renderItem}
         keyExtractor={item => item.id.toString()}
       />
-      <BottomSheetModal
-        ref={bottomSheetModalRef}
-        snapPoints={['30%']}
-        index={0}
-        handleComponent={null}>
-        <CommonText>hjd</CommonText>
-      </BottomSheetModal>
+   
     </View>
   );
 };

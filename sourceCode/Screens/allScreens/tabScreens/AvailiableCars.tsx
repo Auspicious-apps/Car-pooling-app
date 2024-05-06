@@ -6,7 +6,7 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
-import React from 'react';
+import React, { useCallback, useMemo, useRef, useState } from 'react';
 import SafeView from '../../../components/SafeView';
 import ViewCommon from '../../../components/commonView';
 import CommonText from '../../../components/commonText';
@@ -16,8 +16,11 @@ import Fontf from '../../../constant/Fontsf';
 import CommTouchable from '../../../components/Touchablecomp';
 import OpacityButton from '../../../components/opacityButton';
 import { ROUTE_NAMES } from '../../../navigation/StackNavigation';
+import BottomSheet, { BottomSheetView } from '@gorhom/bottom-sheet';
 
 const AvailiableCars = ({navigation}:any) => {
+
+  const [opensheet, setopensheet] = useState(false)
   const data = [
     {
       id: 1,
@@ -96,6 +99,23 @@ const AvailiableCars = ({navigation}:any) => {
       />
     </View>
   );
+
+  const sheetRef = useRef<BottomSheet>(null);
+  const snapPoints = useMemo(() => [ '25%', '50%', '90%'], []);
+
+  const handleSheetChange = useCallback((index) => {
+    console.log('handleSheetChange', index);
+  }, []);
+
+  const [isSheetVisible, setIsSheetVisible] = useState(false);
+
+  const handleButtonPress = () => {
+    setopensheet(!opensheet); 
+  };
+
+  
+
+
   return (
     <SafeView style={fontstylee.Safearea}>
       <ViewCommon style={styles.headerview}>
@@ -107,6 +127,7 @@ const AvailiableCars = ({navigation}:any) => {
             style={styles.filterimage}
             imageSource={imgUrl.filterimg} 
             children={undefined}          
+            onPress={handleButtonPress}
           />
           <CommonText style={fontstylee.medium_Bold_wieght}>
             {Texts.Filters}
@@ -120,6 +141,26 @@ const AvailiableCars = ({navigation}:any) => {
           keyExtractor={item => item.id.toString()}
         />
       </View>
+
+{
+  opensheet (
+ <BottomSheet
+        ref={sheetRef}
+        snapPoints={snapPoints}
+        onChange={handleSheetChange}
+        index={0}
+        visible={isSheetVisible} 
+        
+      >
+        <BottomSheetView>
+          <Text>Awesome 🔥</Text>
+        </BottomSheetView>
+      </BottomSheet>
+  )
+}
+
+   
+      
     </SafeView>
   );
 };

@@ -70,7 +70,13 @@ Deactivate_icon:require('../assets/Images/Deactivate_icon.png'),
 key_Icon:require('../assets/Images/key_Icon.png'),
 tap_to_connect:require('../assets/Images/tap_to_connect.png'),
 key_to_car:require('../assets/Images/key_to_car.png'),
-//key_to_car
+dropdown_arrow:require('../assets/Images/dropdown_arrow.png'),
+Dropup_arrow:require('../assets/Images/Dropup_arrow.png'),
+send_button:require('../assets/Images/send_button.png'),
+Seen_message:require('../assets/Images/bi_check-all.png'),
+//bi_check-all
+
+
 }
 
 export default imgUrl

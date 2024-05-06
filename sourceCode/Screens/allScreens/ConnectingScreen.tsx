@@ -13,11 +13,11 @@ const ConnectingScreen = ({navigation}:any) => {
 useEffect(() => {
     const connectingTimer = setTimeout(() => {
       setConnecting(false);
-    }, 5000);
+    }, 3000);
 
     const navigateTimer = setTimeout(() => {
       navigation.navigate(ROUTE_NAMES.Founddevices); 
-    }, 8000); 
+    }, 6000); 
     return () => {
       clearTimeout(connectingTimer);
       clearTimeout(navigateTimer);

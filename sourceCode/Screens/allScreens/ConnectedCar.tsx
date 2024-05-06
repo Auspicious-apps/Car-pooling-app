@@ -34,7 +34,7 @@ const ConnectedCar = ({navigation}:any) => {
     let screenName;
     switch (item.id) {
         case 1:
-          screenName = ROUTE_NAMES.SecurityScreen;
+          screenName = ROUTE_NAMES.LocationScreen;
           break;
         case 2:
           screenName = ROUTE_NAMES.SecurityScreen;

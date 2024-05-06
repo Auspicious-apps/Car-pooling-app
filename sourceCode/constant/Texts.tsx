@@ -216,6 +216,8 @@ Poor:' Poor',
 Kia:'Kia - Seed, White, 3978',
 Scan_again:'Scan again',
 Silver_Mercedes:'Mercedes-Benz-E-Class, Silver, 3407',
-
+Question:'Question #',
+dummy_question:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
+Choose_Address:'Choose Address',
 
 }

@@ -7,13 +7,18 @@ import {Colors, Texts, imgUrl} from '../../constant';
 import CommonText from '../../components/commonText';
 import Fontf from '../../constant/Fontsf';
 import HeaderComp from '../../components/Headercomp';
+import { ROUTE_NAMES } from '../../navigation/StackNavigation';
 
 const SupporAssistance = ({navigation}: any) => {
   return (
     <SafeView>
         <HeaderComp img={imgUrl.Back_icon} txt={Texts.Support_Assistance} />
       <View style={styles.main_view}>
-        <TouchableOpacity style={styles.touchable_style}>
+        <TouchableOpacity style={styles.touchable_style}
+        onPress={() => {
+          navigation.navigate(ROUTE_NAMES.SupportChat);
+        }}
+        >
           <ViewCommon>
             <Image source={imgUrl.Message_icon} style={styles.icon_styles} />
             <CommonText style={styles.txt}>
@@ -22,7 +27,9 @@ const SupporAssistance = ({navigation}: any) => {
           </ViewCommon>
           <Image style={styles.arrowwright} source={imgUrl.arrowright} />
         </TouchableOpacity>
-        <TouchableOpacity style={styles.touchable_style}>
+        <TouchableOpacity style={styles.touchable_style}  onPress={() => {
+          navigation.navigate(ROUTE_NAMES.FaqScreen);
+        }}>
           <ViewCommon>
             <Image source={imgUrl.Search_alt} style={styles.icon_styles} />
             <CommonText style={styles.txt}>

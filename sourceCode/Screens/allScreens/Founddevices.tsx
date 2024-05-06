@@ -51,7 +51,7 @@ const Founddevices = ({navigation}:any) => {
     },
   ];
   const renderItem = ({item, index}) => (
-    <TouchableOpacity style={[styles.card_View,{marginTop: item.id ===1 ? 37 :5}]}>
+    <TouchableOpacity style={[styles.card_View,{marginTop: item.id ===1 ? 37 :5}]} onPress={()=>{navigation.navigate(ROUTE_NAMES.ScanagainConnecting)}}>
       <ViewCommon style={{justifyContent: 'space-between'}}>
         <View style={{width: '62%'}}>
           <CommonText style={[fontstylee.sixteen_light, {marginBottom: 6}]}>
@@ -113,7 +113,7 @@ const Founddevices = ({navigation}:any) => {
         name={Texts.Scan_again}
         button={styles.continuebutton}
         btnTextStyle={styles.buttontxt}
-        pressButton={()=>{navigation.navigate(ROUTE_NAMES.ScanagainConnecting)}}
+        pressButton={()=>{navigation.navigate(ROUTE_NAMES.ConnectingScreen)}}
       />
     </SafeView>
   );

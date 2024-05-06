@@ -41,6 +41,18 @@ const PickupScreen = ({navigation}:any) => {
     },
   ];
   const renderItem = ({item}: any) => {
+    let screenName;
+    switch (item.id) {
+      case 1:
+        screenName = ROUTE_NAMES.CheckoutScreen;
+        break;
+      case 2:
+        screenName = ROUTE_NAMES.CheckoutScreen;
+        break;
+      case 3:
+        screenName = ROUTE_NAMES.ChooseAddress;
+        break;
+    }
     return (
       <ViewCommon style={styles.comman_view_style}>
         <View style={styles.flex_row}>
@@ -50,7 +62,7 @@ const PickupScreen = ({navigation}:any) => {
             <CommonText style={styles.txt_styl}>{item.Textt}</CommonText>
           </View>
         </View>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={()=>{navigation.navigate(screenName)}}>
           <CommonText style={styles.change_txt}>{item.change}</CommonText>
         </TouchableOpacity>
       </ViewCommon>
