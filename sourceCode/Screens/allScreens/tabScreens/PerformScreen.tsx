@@ -282,7 +282,7 @@ const styles = StyleSheet.create({
     borderRadius: 14,
   },
   Second_Card_View: {
-    height: 225,
+    // height: 225,
     width: '100%',
     padding: 24,
     borderRadius: 14,
@@ -290,7 +290,7 @@ const styles = StyleSheet.create({
     marginVertical: 20,
   },
   Stats_Card: {
-    height: 350,
+    // height: 350,
     width: '100%',
     padding: 24,
     borderRadius: 14,
@@ -298,7 +298,7 @@ const styles = StyleSheet.create({
     marginVertical: 10,
   },
   Pending_Tasks_View: {
-    height: 430,
+    // height: 430,
     width: '100%',
     padding: 24,
     borderRadius: 14,

@@ -219,5 +219,12 @@ Silver_Mercedes:'Mercedes-Benz-E-Class, Silver, 3407',
 Question:'Question #',
 dummy_question:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
 Choose_Address:'Choose Address',
+Choose_date:'Choose date',
+Delete_Car:'Delete Car',
+Filter:'Filter',
+Price_range:'Price range',
+Body_Styles:'Body Styles',
+
+
 
 }

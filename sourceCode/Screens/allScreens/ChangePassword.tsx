@@ -48,6 +48,6 @@ const styles = StyleSheet.create({
     input_view:{
         marginVertical:25
     },
-    button: {position: 'absolute', bottom: 0},
+    button: {position: 'absolute', bottom: '3%'},
 
 })

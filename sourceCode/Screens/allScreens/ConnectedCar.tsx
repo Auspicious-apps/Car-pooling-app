@@ -82,7 +82,7 @@ const ConnectedCar = ({navigation}:any) => {
       </ViewCommon>
       {/* <SlideButton title="Slide to unlock >>>" style={styles.slider} titleStyle={styles.title_styel}/> */}
 
-      <View style={styles.slider_view}>
+      <View >
         <TouchableOpacity style={{justifyContent: 'center'}}>
           <Animated.View style={[styles.slider_view]}>
             <View style={styles.lock_View}>
@@ -125,7 +125,9 @@ const ConnectedCar = ({navigation}:any) => {
         renderItem={renderItem}
         keyExtractor={item => item.id.toString()}
         numColumns={3}
+        contentContainerStyle={{justifyContent:'space-between',paddingHorizontal: 5,alignSelf:'center',}}
       />
+     
     </SafeView>
   );
 };
@@ -142,8 +144,9 @@ const styles = StyleSheet.create({
   active_button_view: {height: '58%', justifyContent: 'center'},
   location_img_style: {height: 40, width: 40, marginBottom: 10},
   location_option_view: {
-    height: 85,
+    // height: 85,
     width: 99,
+    padding:12,
     backgroundColor: Colors.darkgrey,
     justifyContent: 'center',
     alignItems: 'center',
@@ -156,6 +159,8 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
   slider_view: {
+    // borderWidth:1,borderColor:'red',
+    paddingHorizontal:5,
     height: 60,
     width: '100%',
     backgroundColor: '#1D2125',

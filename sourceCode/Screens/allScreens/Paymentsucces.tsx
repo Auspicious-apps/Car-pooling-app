@@ -30,6 +30,6 @@ const styles = StyleSheet.create({
     check_image:{height:120,width:120},
     txt:{fontSize:24,fontFamily:Fontf.Dm_Bold,color:Colors.Green,marginBottom:20},
     button_view:{position:'absolute',bottom:15},
-    button: {position: 'absolute', bottom: 0},
+    button: {position: 'absolute', bottom: '3%'},
 
 })

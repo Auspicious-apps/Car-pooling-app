@@ -27,7 +27,7 @@ const HeaderComp = (props: any) => {
 export default HeaderComp
 
 const styles = StyleSheet.create({
-    container: {justifyContent: 'space-between', height: '6%', marginTop: 10, paddingHorizontal: 3,alignItems:'center', },
+    container: {justifyContent: 'space-between', height: '6%', paddingHorizontal: 3,alignItems:'center',backgroundColor:Colors.Black },
     Txtstyl: { fontFamily:Fontf.Dm_Bold, fontSize: 18 },
     backarrow: { height: 30, width: 30, }
 })

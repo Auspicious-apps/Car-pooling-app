@@ -20,7 +20,7 @@ const AddCard = ({navigation}:any) => {
         <OpacityButton
         name={Texts.Add}
         pressButton={()=>{navigation.navigate(ROUTE_NAMES.Paymentsucces)}}
-   
+        // buttongradient={{marginBottom:'5%'}}
         />
        </View>
   </SafeView>
@@ -30,6 +30,6 @@ const AddCard = ({navigation}:any) => {
 export default AddCard
 
 const styles = StyleSheet.create({
-  button_view:{bottom:10,position:'absolute',alignSelf:'center'},
+  button_view:{bottom:'3%',position:'absolute',alignSelf:'center'},
   header_style:{marginBottom:10}
 })

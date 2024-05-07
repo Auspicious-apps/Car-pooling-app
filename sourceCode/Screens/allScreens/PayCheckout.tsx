@@ -78,6 +78,7 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     paddingHorizontal: 16,
     paddingVertical: 24,
+    // borderWidth:1,borderColor:'red'
   },
   view_comman: {justifyContent: 'space-between',alignItems:'center',marginVertical:3},
   gift_main_view: {
@@ -94,6 +95,6 @@ const styles = StyleSheet.create({
   buttn_txt:{fontSize:16,color:Colors.Green,fontFamily:Fontf.Dm_Bold,marginLeft:9},
   payment_info_view:{alignItems:'center'},
   green_txt: {fontSize: 24, color: Colors.Green, fontFamily: Fontf.Dm_Bold},
-  button: {position: 'absolute', bottom: 0},
+  button: {position: 'absolute', bottom: '3%'},
 
 });

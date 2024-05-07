@@ -49,7 +49,7 @@ const UserScreen = ({navigation}:any) => {
         screenName = ROUTE_NAMES.Subscription;
         break;
       case 3:
-        screenName = ROUTE_NAMES.Subscription;
+        screenName = ROUTE_NAMES.PaymentInfo;
         break;
       case 4:
         screenName = ROUTE_NAMES.ChangePassword;

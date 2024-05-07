@@ -283,6 +283,6 @@ const styles = StyleSheet.create({
   additinol_text: {marginLeft: 5},
   Car_Basics: {marginVertical: 15, fontSize: 16, fontFamily: Fontf.Dm_Bold},
   paginationStyle_indicator:{height:10,width:10,marginHorizontal:4},
-  button: {position: 'absolute', bottom: 0},
+  button: {position: 'absolute', bottom: '3%'},
 
 });

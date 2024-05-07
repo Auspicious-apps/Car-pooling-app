@@ -146,5 +146,5 @@ const styles = StyleSheet.create({
   Overage:{textAlign:'right',marginTop:10,fontSize:14,fontFamily:Fontf.Dm_Regular},
   sticker:{height:58,width:58,position:'absolute',bottom:0,left:-3},
   texts:{paddingHorizontal:16,marginVertical:10,marginBottom:15},
-  buttonn:{width:'90%',}
+  buttonn:{width:'90%',marginBottom:'5%'}
 });

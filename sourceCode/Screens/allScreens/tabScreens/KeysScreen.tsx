@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, {useCallback, useMemo, useRef, useState} from 'react';
 import {
   FlatList,
   Image,
@@ -10,13 +10,29 @@ import {Colors, Texts, imgUrl} from '../../../constant';
 import ViewCommon from '../../../components/commonView';
 import CommonText from '../../../components/commonText';
 import {ROUTE_NAMES} from '../../../navigation/StackNavigation';
-import {BottomSheetModal, BottomSheetScrollView} from '@gorhom/bottom-sheet';
+import CommTouchable from '../../../components/Touchablecomp';
+import BottomSheet, {BottomSheetView} from '@gorhom/bottom-sheet';
+import OpacityButton from '../../../components/opacityButton';
 
 const KeysScreen = ({navigation}: any) => {
   const arrayData = [
     {id: 1, car: imgUrl.greyCar, text: 'Mercedes-Benz-E-Class, 2014, Silver'},
     {id: 2, car: imgUrl.redCar, text: 'Audi, 2018, Red'},
   ];
+  const [opensheet, setopensheet] = useState(false);
+
+  const sheetRef = useRef<BottomSheet>(null);
+  const snapPoints = useMemo(() => ['40%', '55%'], []);
+
+
+  const handleSheetChange = useCallback(index => {
+    setopensheet(index > 0);
+  }, []);
+  const handleButtonPress = () => {
+    setopensheet(!opensheet);
+
+    sheetRef.current?.expand();
+  };
 
   const renderItem = ({item}: any) => {
     return (
@@ -31,11 +47,11 @@ const KeysScreen = ({navigation}: any) => {
             source={item?.car}
             style={styles.carImg}
           />
-
-          <Image
-            resizeMode="center"
-            source={imgUrl.threedot}
-            style={{height: 20}}
+          <CommTouchable
+            imageSource={imgUrl.threedot}
+            children={undefined}
+            imagestyle={{height: 20}}
+            onPress={handleButtonPress}
           />
         </ViewCommon>
         <CommonText>{item.text}</CommonText>
@@ -45,19 +61,17 @@ const KeysScreen = ({navigation}: any) => {
             resizeMode="contain"
             style={{height: 10}}
           />
-          <CommonText style={{color: Colors.Green}}>Connected</CommonText>
+          <CommonText style={{color: Colors.Green}}>{Texts.Connected}</CommonText>
         </ViewCommon>
       </TouchableOpacity>
     );
   };
 
- 
-
   return (
     <View style={styles.containor}>
       <ViewCommon style={styles.row}>
         <CommonText style={styles.text}>{Texts.Keys}</CommonText>
-        <TouchableOpacity >
+        <TouchableOpacity>
           <Image
             resizeMode="contain"
             style={styles.imgStyle}
@@ -71,7 +85,40 @@ const KeysScreen = ({navigation}: any) => {
         renderItem={renderItem}
         keyExtractor={item => item.id.toString()}
       />
-   
+      {opensheet && (
+        <BottomSheet
+        
+        backgroundStyle={{ backgroundColor:Colors.Black }} 
+          ref={sheetRef}
+          snapPoints={snapPoints}
+          onChange={handleSheetChange}
+          index={opensheet ? 1 : 0}
+          
+          >
+          <BottomSheetView style={styles.bottom_sheet_view}>
+            <View>
+              <OpacityButton
+                pressButton={handleButtonPress}
+                name={Texts.Security}
+                button={styles.continuebutton}
+                btnTextStyle={styles.buttontxt}
+              />
+              <OpacityButton
+                name={Texts.Location}
+                button={styles.continuebutton}
+                btnTextStyle={styles.buttontxt}
+                pressButton={handleButtonPress}
+              />
+              <OpacityButton
+                name={Texts.Delete_Car}
+                button={styles.continuebutton}
+                btnTextStyle={styles.buttontxt}
+                pressButton={handleButtonPress}
+              />
+            </View>
+          </BottomSheetView>
+        </BottomSheet>
+      )}
     </View>
   );
 };
@@ -79,6 +126,19 @@ const KeysScreen = ({navigation}: any) => {
 export default KeysScreen;
 
 const styles = StyleSheet.create({
+  continuebutton: {
+    marginVertical: 10,
+    backgroundColor: Colors.Black,
+    borderColor: Colors.White,
+    borderWidth: 1,
+  },
+  buttontxt: {color: Colors.White,},
+  bottom_sheet_view: {
+    backgroundColor: Colors.Black,
+    paddingHorizontal: 15,
+    flex: 1,
+  },
+
   containor: {
     flex: 1,
     backgroundColor: Colors.Black,

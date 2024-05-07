@@ -94,5 +94,5 @@ const styles = StyleSheet.create({
   },
   dummy_txt: {fontSize: 15, marginBottom: '5%'},
   Download_icon_style: {height: 20, width: 20},
-  button: {position: 'absolute', bottom: 0},
+  button: {position: 'absolute', bottom: '3%',width:'90%'},
 });

@@ -74,7 +74,8 @@ dropdown_arrow:require('../assets/Images/dropdown_arrow.png'),
 Dropup_arrow:require('../assets/Images/Dropup_arrow.png'),
 send_button:require('../assets/Images/send_button.png'),
 Seen_message:require('../assets/Images/bi_check-all.png'),
-//bi_check-all
+Graph_img:require('../assets/Images/Graph.png'),
+fi_search:require('../assets/Images/fi_search.png'),
 
 
 }

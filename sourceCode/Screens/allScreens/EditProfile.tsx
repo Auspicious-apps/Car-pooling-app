@@ -7,6 +7,7 @@ import InputText from '../../components/textInput';
 import CommonText from '../../components/commonText';
 import ViewCommon from '../../components/commonView';
 import Fontf from '../../constant/Fontsf';
+import OpacityButton from '../../components/opacityButton';
 
 const EditProfile = () => {
   return (
@@ -68,6 +69,9 @@ const EditProfile = () => {
           </ViewCommon>
         </View>
       </ScrollView>
+      <OpacityButton
+      name={Texts.Save}
+      />
     </SafeView>
   );
 };

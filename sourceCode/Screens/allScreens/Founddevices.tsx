@@ -113,7 +113,7 @@ const Founddevices = ({navigation}:any) => {
         name={Texts.Scan_again}
         button={styles.continuebutton}
         btnTextStyle={styles.buttontxt}
-        pressButton={()=>{navigation.navigate(ROUTE_NAMES.ConnectingScreen)}}
+        // pressButton={()=>{navigation.navigate(ROUTE_NAMES.ConnectingScreen)}}
       />
     </SafeView>
   );

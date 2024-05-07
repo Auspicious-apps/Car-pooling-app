@@ -53,7 +53,7 @@ const SignUp = () => {
               <CommonText style={styles.Termss}>{Texts.Policy}</CommonText>
             </CommonText>
           </View>
-          <OpacityButton name={Texts.Next} button={styles.nextbutton}
+          <OpacityButton name={Texts.Next} buttongradient={styles.nextbutton}
             img2={imgUrl.arrowright}
             pressButton={()=>{navigate(ROUTE_NAMES.TabNavigator)}}
           />
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
   checkbox_main_view: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginTop: 20,
+    marginVertical: 20,
     width: '100%',
     alignSelf: 'center',
     paddingHorizontal: '3%',
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
     borderColor: Colors.White,
     borderWidth: 1,
   },
-  buttontxt: { color: Colors.White },
-  notaccount: { flexDirection: 'row', alignSelf: 'center', marginTop: 15,marginBottom:15 },
+  buttontxt: { color: Colors.White,marginLeft:5 },
+  notaccount: { flexDirection: 'row', alignSelf: 'center', marginTop: 25,marginBottom:50 },
   txtnotaccount: { fontSize: 16 }
 });

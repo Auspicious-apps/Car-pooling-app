@@ -41,7 +41,7 @@ const Login = ({navigation}:any) => {
               <CommonText style={styles.Fpass}>{Texts.Forgot_pass}</CommonText>
             </TouchableOpacity>
           </View>
-          <OpacityButton name={Texts.Next} button={styles.nextbutton}
+          <OpacityButton name={Texts.Next} buttongradient={styles.nextbutton}
             img2={imgUrl.arrowright} 
             pressButton={()=>{navigation.navigate(ROUTE_NAMES.SignUp)}}
             />
@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignSelf: 'center',
     width: '95%',
-    marginTop: 10,
+    marginVertical: 15,
   },
   rmpassword: { flexDirection: 'row', alignItems: 'center' },
   box: {
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
     borderColor: Colors.White,
     borderWidth: 1,
   },
-  buttontxt: { color: Colors.White },
-  notaccount: { flexDirection: 'row', alignSelf: 'center', marginTop: 15 },
+  buttontxt: { color: Colors.White,marginLeft:5 },
+  notaccount: { flexDirection: 'row', alignSelf: 'center', marginTop: 25 },
   txtnotaccount: { fontSize: 16 }
 });

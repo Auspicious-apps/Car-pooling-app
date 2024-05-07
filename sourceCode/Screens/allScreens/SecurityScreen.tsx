@@ -52,7 +52,7 @@ const SecurityScreen = () => {
         {Texts.Security_three_lines_three}
       </CommonText>
       <Slider
-        style={{width: 320, height: 30}}
+        style={{width: '95%', height: 30,alignSelf:'center'}}
         minimumValue={0}
         maximumValue={1}
         minimumTrackTintColor="green"
@@ -61,7 +61,9 @@ const SecurityScreen = () => {
         minimumValue={10}
         maximumValue={60}
         value={sliderValue}
-        onValueChange={handleValueChange}></Slider>
+        onValueChange={handleValueChange}>
+         
+        </Slider>
       <CommonText style={styles.SECONDS_txts}>
         {Math.floor(sliderValue)} SECONDS
       </CommonText>
