@@ -12,6 +12,7 @@ import {Colors, Texts, imgUrl} from '../../constant';
 import CommonText from '../../components/commonText';
 import ViewCommon from '../../components/commonView';
 import fontstylee from '../../constant/fstyles';
+import HeaderComp from '../../components/Headercomp';
 
 const FaqScreen = () => {
     const [expandedItem, setExpandedItem] = useState(null);
@@ -50,6 +51,7 @@ const FaqScreen = () => {
   };
   return (
     <SafeView>
+        <HeaderComp img={imgUrl.Back_icon} txt={Texts.FAQ} style={{marginVertical:10}}/>
       <FlatList
         data={data}
         renderItem={renderItem}
@@ -73,6 +75,7 @@ const styles = StyleSheet.create({
   },
   expandedCard: {
     height: 150,
+    
   },
 
 });

@@ -13,6 +13,7 @@ import {ROUTE_NAMES} from '../../../navigation/StackNavigation';
 import CommTouchable from '../../../components/Touchablecomp';
 import BottomSheet, {BottomSheetView} from '@gorhom/bottom-sheet';
 import OpacityButton from '../../../components/opacityButton';
+import Fontf from '../../../constant/Fontsf';
 
 const KeysScreen = ({navigation}: any) => {
   const arrayData = [
@@ -41,7 +42,7 @@ const KeysScreen = ({navigation}: any) => {
         onPress={() => {
           navigation.navigate(ROUTE_NAMES.ConnectedCar);
         }}>
-        <ViewCommon style={styles.row}>
+        <View style={styles.row_car}>
           <Image
             resizeMode="contain"
             source={item?.car}
@@ -50,16 +51,16 @@ const KeysScreen = ({navigation}: any) => {
           <CommTouchable
             imageSource={imgUrl.threedot}
             children={undefined}
-            imagestyle={{height: 20}}
+            imagestyle={styles.three_dot}
             onPress={handleButtonPress}
           />
-        </ViewCommon>
-        <CommonText>{item.text}</CommonText>
-        <ViewCommon>
+        </View>
+        <CommonText style={styles.car_name}>{item.text}</CommonText>
+        <ViewCommon style={{marginTop:5}}>
           <Image
             source={imgUrl.onedot}
             resizeMode="contain"
-            style={{height: 10}}
+            style={{height: 10,width:10,marginRight:6,}}
           />
           <CommonText style={{color: Colors.Green}}>{Texts.Connected}</CommonText>
         </ViewCommon>
@@ -144,21 +145,27 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.Black,
     padding: 10,
   },
+  three_dot:{height: 20,top:14,position:'absolute',left:6},
   row: {
     justifyContent: 'space-between',
     paddingHorizontal: 10,
+    paddingVertical:10
+  },
+  row_car:{
+   justifyContent:'center',
+    paddingHorizontal: 10,flexDirection:'row',
   },
   text: {
     color: Colors.White,
-    fontSize: 20,
-    fontWeight: '700',
+    fontSize: 24,
+   fontFamily:Fontf.Dm_Bold
   },
   imgStyle: {
     height: 35,
     width: 35,
   },
   card: {
-    height: 200,
+    // height: 200,
     width: '100%',
     backgroundColor: Colors.inputbackground,
     borderRadius: 10,
@@ -167,7 +174,8 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
   carImg: {
-    height: 100,
-    width: 260,
+    height: 157,
+    width: 250,
   },
+  car_name:{fontFamily:Fontf.Dm_Bold,fontSize:18}
 });
