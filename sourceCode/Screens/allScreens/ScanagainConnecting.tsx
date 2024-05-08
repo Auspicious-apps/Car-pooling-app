@@ -16,7 +16,7 @@ const ScanagainConnecting = ({navigation}:any) => {
         }, 5000);
     
         const navigateTimer = setTimeout(() => {
-          navigation.navigate(TAB_ROUTES.KeysScreen); 
+          navigation.goBack()
         }, 8000); 
         return () => {
           clearTimeout(connectingTimer);

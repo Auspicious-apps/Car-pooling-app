@@ -23,7 +23,7 @@ const KeysScreen = ({navigation}: any) => {
   const [opensheet, setopensheet] = useState(false);
 
   const sheetRef = useRef<BottomSheet>(null);
-  const snapPoints = useMemo(() => ['40%', '55%'], []);
+  const snapPoints = useMemo(() => ['30%', '40%'], []);
 
 
   const handleSheetChange = useCallback(index => {
@@ -41,7 +41,8 @@ const KeysScreen = ({navigation}: any) => {
         style={styles.card}
         onPress={() => {
           navigation.navigate(ROUTE_NAMES.ConnectedCar);
-        }}>
+        }}
+       >
         <View style={styles.row_car}>
           <Image
             resizeMode="contain"
@@ -72,7 +73,11 @@ const KeysScreen = ({navigation}: any) => {
     <View style={styles.containor}>
       <ViewCommon style={styles.row}>
         <CommonText style={styles.text}>{Texts.Keys}</CommonText>
-        <TouchableOpacity>
+        <TouchableOpacity 
+         onPress={() => {
+          navigation.navigate(ROUTE_NAMES.Founddevices);
+        }}
+        >
           <Image
             resizeMode="contain"
             style={styles.imgStyle}

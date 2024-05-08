@@ -16,7 +16,7 @@ useEffect(() => {
     }, 3000);
 
     const navigateTimer = setTimeout(() => {
-      navigation.navigate(ROUTE_NAMES.Founddevices); 
+      navigation.navigate(ROUTE_NAMES.ConnectedCar); 
     }, 6000); 
     return () => {
       clearTimeout(connectingTimer);
